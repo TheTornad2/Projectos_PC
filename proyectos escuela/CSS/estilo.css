@@ -1,0 +1,61 @@
+
+body
+{
+    background-image: url(../img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img
+{
+    border-radius: 50%;
+}
+
+ul > li{
+   display: inline-block;
+   width: 220px;
+   height: 30px;
+   border: 1px solid #f10606;
+  position: relative;
+}
+ul > li > a{
+	display: block;
+	width: inherit;
+	height: inherit;
+	text-decoration: none;
+	text-align: center;
+	line-height: 31px;
+	font-size: 20px;
+	color: orange;
+}
+ul > li:hover{
+	background: rgba(0,0,0,0.15);
+	color: orange;
+	
+}
+ul > li:hover > ul{
+	display: block;
+
+}
+
+ul > li > ul{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: 2px;
+	display: none;
+}
+ul > li > ul > li{
+	background-color: white;
+	color: white;
+}
+
+#Título
+{   
+    text-align: center;
+    color: white;
+    font-size: 4cm;
+    background: rgba(0,0,0,0.15);
+}
+
+

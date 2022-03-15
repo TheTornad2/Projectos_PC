@@ -1,0 +1,60 @@
+body
+{
+    background-image:url(../Cosas/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10em;
+    animation-name: titulo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes titulo 
+{
+    30%{
+        color: yellow;
+    }
+
+    50%{
+        color: red;
+    }
+
+    60%{
+        color: blue;
+    }
+
+}
+
+span
+{
+    font-size: 5em;
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 23ch;
+    animation-iteration-count: infinite;
+    
+    animation: typing 4s steps(22),
+     blink .5s infinite step-end alternate ;
+     overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0}
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
+}
